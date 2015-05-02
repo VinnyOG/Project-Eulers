@@ -2,6 +2,8 @@
 
 #include <iostream>
 #include <bitset>
+#include <string>
+#include <Windows.h>
 #define number_size 128
 #define print_level 1000
 
@@ -25,6 +27,8 @@ void problem14(){
 	//i and chain.number are independent but must be same value
 	for (int i = 2; i < 1000000; i++){
 		if(i % print_level == 0) cout << "Working on block: " << i << endl;
+		wstring title_text = L"Current Number: " + to_wstring(i);
+		SetConsoleTitle(title_text.c_str());
 		current.length = 1;
 		current.start_val = i;
 		current.number = current.starting_number;
