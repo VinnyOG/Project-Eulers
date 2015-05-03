@@ -28,7 +28,7 @@ void problem14(){
 	for (int i = 2; i < 1000000; i++){
 		if(i % print_level == 0) cout << "Working on block: " << i << endl;
 		wstring title_text = L"Current Number: " + to_wstring(i);
-		SetConsoleTitle(title_text.c_str());
+		//SetConsoleTitle(title_text.c_str());
 		current.length = 1;
 		current.start_val = i;
 		current.number = current.starting_number;

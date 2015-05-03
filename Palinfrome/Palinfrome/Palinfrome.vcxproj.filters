@@ -48,10 +48,10 @@
     <ClCompile Include="Project12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="scrap-Problem14.cpp">
-      <Filter>Source Files\scraps</Filter>
-    </ClCompile>
     <ClCompile Include="Problem14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem15.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
